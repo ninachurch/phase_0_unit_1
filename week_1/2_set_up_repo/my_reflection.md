@@ -19,8 +19,10 @@ Since I was young the importance of bibliogrophies and citations have been drill
 
 * What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
 
-
+Using the GitHub application. While I still have a while to go before it feels naturally, playing with the navigation between it, Sublime and GitHub. I struggled with finding where git was saved since I did it in my terminal, and after some researched realized that the '~' refers to my 'ninachurch' file which then had all of the gitHub folders I'd been viewing. It was cool to see it all come together.
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+StackOverflow! I've heard about it before, but never used it. It was great for quick fixes to some of the little issues that I kept running into.
 
 <!-- Add your reflection here. Remove the comment markers -->
