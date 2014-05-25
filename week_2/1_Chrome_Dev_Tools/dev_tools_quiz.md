@@ -27,7 +27,7 @@
   
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
   
-    #0b0f11
+    The color is #0b0f11
   
   * Tweak the background color to white.
    
@@ -64,4 +64,4 @@ If you look at the "Styles" tab you can see that the text is actually part of an
 
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
 
-Minify the CS. This will reduce their size by 4.6KiB when combined.
+  Minify the CSS. This will reduce their size by 4.6KiB when combined.
