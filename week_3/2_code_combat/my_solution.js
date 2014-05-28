@@ -187,6 +187,36 @@
  			
 
 
-
+//Challenge Name: Mobile Artillery
+ //PseudoCode for Mobile Artillery
+ 	//position artillery towards first set of ogres
+ 			this.moveXY(39, 41);
+ 	//shoot ogres multiple times
+ 			this.attackXY(50,68);
+			this.attackXY(48,55);
+ 	//position artillery towards second set of ogres
+ 			this.moveXY(50, 41);
+ 	//shoot second group of ogres
+ 			this.attackXY(67,55);
+			this.attackXY(61,47);
+ //Final Code for "Commanding Followers"
+ 	this.moveXY(39, 41);
+ 	this.attackXY(50,68);
+	this.attackXY(48,55);
+ 	this.moveXY(50, 41);
+ 	this.attackXY(67,55);
+	this.attackXY(61,47);
+ 	
+//Release 3:
+	//What is "this." referring to?
+        //it is referring to the defined variable. Just like in English grammer we use "he/she" to avoid being redundant and also to be clear that we're referring to the prestated person, and not another individual with the same name, JavaScript uses "this." to call on already defined objects.
+	//What does the "()" do in JavaScript?
+        //The parentheses are used for execution. The first bracket signals the start of an expression that needs to be executed and the second bracket executes it. 
+	//What is the point of semicolons?
+        //the semicolon seperates statements that are on the same line.
+ 
 // Reflection:
 // Write your reflection here.
+
+    //I've always been amazed at the complexity that must go into every little bit of video games. Today's challenge was an interesting foray if you will into just how complicated the world of gaming really is. While I've been exposed a bit to JavaScript basic navigating before through Karol the Robot, this was much better. I found it much easier to follow along when there was an actual storyline. It was pretty easy crusing until the Artillary challenge, where I had to play around with the best points to set the canon and target the enemies. I am still unclear if there was a specific way to go about doing that- I ended up doing quite a bit of trial and error before finally slaying all the ogres. It definitely helped to have the pseudocode, and I can see why this would be helpful in the future. However I found it annoying to organize the file in an easily readable way when using psuedo-code; I'd like to figure out a way to color comments or organize them better. Regardless of this type A desire, I felt like this challenge was great for getting my toes wet and I feel very confident in the learning competencies. 
+
