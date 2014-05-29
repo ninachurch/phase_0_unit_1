@@ -211,7 +211,7 @@
 	//What is "this." referring to?
         //it is referring to the defined variable. Just like in English grammer we use "he/she" to avoid being redundant and also to be clear that we're referring to the prestated person, and not another individual with the same name, JavaScript uses "this." to call on already defined objects.
 	//What does the "()" do in JavaScript?
-        //The parentheses are used for execution. The first bracket signals the start of an expression that needs to be executed and the second bracket executes it. 
+        //The parentheses are used for execution. The first bracket signals the start of an expression that needs to be executed and the second bracket executes it. Without them, JavaScript views the method as a property.
 	//What is the point of semicolons?
         //the semicolon seperates statements that are on the same line.
  
