@@ -45,6 +45,8 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+
+//Initial Code
 var terah = {
   name: "Terah",
   age: 32,
@@ -74,6 +76,7 @@ var children = {
 };
 
 
+//Refractured Code
 
 
 
@@ -86,8 +89,8 @@ var children = {
 // During test #6, I got caught up for a bit. It turned out that even though I was just directly copying and pasting the correct code, because I had var adam placed after var terah, terah was using the old, not updated version of adam. This meant that the test kept failing, even though my code was correct. It led me to be quite frustrated, and learn a very valuable lesson once I figured it out.
 // Thankfully after this I was aware that this was an issue, and better able to beat the problem as it came up again.
 // Overall though I really enjoy the test based challenges- it really helps me take the code bit by bit.
-// 
-// 
+// I got to the end of all of this and went to review others code, and realized I had done the code from an initial way rather than from scratch.
+// So I went back and "refractured" by turning it into manipulation style code rather than what I had.
 // 
 
 
