@@ -10,14 +10,68 @@ var terah = {
   weight: 130,
   hairColor: "brown",
   eyeColor: "brown"
-}
+};
 
 
+// __________________________________________
+// Psuedocode
+//    define var Adam 
+//         var Adam = {};
+//    name property = Adam
+//         var Adam = {name: "Adam"}
+//    in terah, add spouse property = adam
+//          spouse: adam,
+//    set weight property in terah to 125
+//          weight: 125,
+//    remove property eyeColor in terah
+//          delete eyeColor: "brown"
+//    in adam, add spouse property = terah
+//          spouse: terah,
+//    create var children
+//          var children = {};
+//    add children property to terah
+//          children: children
+//    add "Carson" to children var
+//        var chidren = {carson: {name: "Carson"}};
+//    add "Carter" to children var
+//        var chidren = {carter: {name: "Carter"}};
+//    add "Colten" to children var
+//        var chidren = {colton: {name: "Colton"}};;
+//    add children property to adam set at the value of terah.children
+//        children: terah.children
+//
+//
 
 // __________________________________________
 // Write your code below.
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam,
+  children: children
+};
 
+var adam = {
+  name: "Adam",
+  spouse: terah,
+  children: terah.children
+};
+
+var children = {
+    carson: {
+      name: "Carson"
+    },
+    carter: {
+      name:"Carter"
+    },
+    colton: {
+      name: "Colton"
+    }
+};
 
 
 
@@ -27,8 +81,11 @@ var terah = {
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
-// 
+// I suppose I should get used to being frustrated, but this exercise was definitely a wakeup call that I'll need to start developing my patience.
+// There were multiple instances during this activity where I knew my code was right, but the problem ended up being in the order I was updating my variables.
+// During test #6, I got caught up for a bit. It turned out that even though I was just directly copying and pasting the correct code, because I had var adam placed after var terah, terah was using the old, not updated version of adam. This meant that the test kept failing, even though my code was correct. It led me to be quite frustrated, and learn a very valuable lesson once I figured it out.
+// Thankfully after this I was aware that this was an issue, and better able to beat the problem as it came up again.
+// Overall though I really enjoy the test based challenges- it really helps me take the code bit by bit.
 // 
 // 
 // 
