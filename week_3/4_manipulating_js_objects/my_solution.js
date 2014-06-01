@@ -78,6 +78,32 @@ var children = {
 
 //Refractured Code
 
+//creates a new empty variable Adam
+var adam = new Object();
+//give adam name property "Adam"
+adam.name = "Adam";
+//change value of terah weight property to 125
+terah.weight = 125;
+//remove terah's eyeColor property
+delete terah.eyeColor;
+//add spouse property terah to adam
+adam.spouse = terah;
+terah.spouse = adam;
+//add children property to terah with value of the object carson
+//first need to create objects carson, carter and colton
+var carson = {name: "Carson"}
+var carter = {name: "Carter"}
+var colton = {name: "Colton"}
+//add property children to terah
+terah.children = {};
+//pass objects carson, carter and colton into the children object as properties
+terah.children.carson = carson;
+terah.children.carter = carter;
+terah.children.colton = colton;
+//add children property to adam
+adam.children = {};
+//set children property equal to terah's children property
+adam.children = terah.children;
 
 
 
@@ -91,6 +117,7 @@ var children = {
 // Overall though I really enjoy the test based challenges- it really helps me take the code bit by bit.
 // I got to the end of all of this and went to review others code, and realized I had done the code from an initial way rather than from scratch.
 // So I went back and "refractured" by turning it into manipulation style code rather than what I had.
+// I'm glad I did it the other way first, because when I went back and did it this way I could see why we would use this method instead: the previous problem I was having wouldn't happen with this one.
 // 
 
 
