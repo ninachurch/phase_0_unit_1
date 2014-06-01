@@ -23,6 +23,9 @@ var Humphrey = {
     Name: "Humphrey Bogart",
     Age: 115,
     Quote: "Here's looking at you kid.",
+    showQuote: function() {
+        console.log(humphrey.quote)
+    }
 };
 
 
@@ -79,17 +82,26 @@ shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to wh
 //Pull object properties together in a readable format (concatenate different properties)
 //Return new string to user
 
-clientSearch = prompt("Which client are you looking for?", "Type a client's first name here.");
+var clientSearch = prompt("What client are you looking for?", "Please type a client's first name here.");
+console.log(clientSearch.downcase)
 
-clients.indexOf(clientSearch) > -1
 
 
 
 // 4. "But wait, there's more!"
-
+humphrey.showQuote();
 
 
 // 5.  ** BONUS **
 
 
 //  6.  Your Reflection:
+
+// I felt a bit like a chicken with my head cutoff doing this 
+// so early on in the week. I got through as much of the material as I could,
+// but it seemed fairly hard to get started. Once we got moving though it was much easier.
+// In the future, I'm finding that just diving into the material will help, even if I don't really have
+// an idea of how to appraoch it. It was incredibly helpful having Michael to work with,
+// who remained calm and inventive even when we had no idea what we were doing.
+// That helped make it easier later on when we went back to finish the GPS after having done the rest of the 
+// week's work, and I was able to really see everything that we'd learned make this much easier.
